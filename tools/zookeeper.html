@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZooKeeper – Unity asset library tool – Andreas Nøhr</title>
+  <meta name="description" content="ZooKeeper is a Unity Editor tool that lays out, labels, budget-checks and reviews a whole prefab library in one scene, with live mesh stats.">
+  <meta property="og:title" content="ZooKeeper – Unity asset library tool">
+  <meta property="og:description" content="Lay out, label, budget-check and review a whole prefab library in one scene, from a single library asset.">
+  <meta property="og:image" content="../assets/img/zookeeper-3d-overview.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="../assets/img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="zookeeper">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-name" href="../index.html"><img src="../assets/img/logo.png" width="40" height="40" alt="">Andreas Nøhr</a>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="index.html" aria-current="page">Tools</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero has-shot">
+      <div class="wrap">
+        <p class="eyebrow">Unity Editor tool &middot; Version 1.1.0</p>
+        <h1><span class="zoo">ZOO</span>KEEPER</h1>
+        <p class="lead">Lay out, label, budget-check and review a whole prefab library in one scene, from a single library asset.</p>
+        <!-- TODO: replace # with the Asset Store listing URL -->
+        <a class="button" href="#">Get it on the Asset Store</a>
+        <a class="button secondary" href="mailto:andreas.techart.tools@gmail.com">Support</a>
+        <img class="showcase hero-shot" src="../assets/img/zookeeper-3d-overview.jpg" width="1600" height="1115"
+             alt="ZooKeeper zoo scene: props arranged on a labelled grid platform next to a purple human scale reference.">
+      </div>
+    </section>
+
+    <section class="section after-shot">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">What it does</p>
+          <h2>A zoo for your assets</h2>
+          <p class="muted">Sort models into categories and ZooKeeper builds a platform per category, places every asset on a packed grid, labels it with live mesh stats, and flags anything broken or over budget. The scene is a disposable rendering of the library, so it can be regenerated at any time instead of hand-placed.</p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Showcase scene in minutes</h3>
+            <p>Drag prefabs, FBX files, sprites or scene objects in; get platforms, grids, labels and a scale reference.</p>
+          </article>
+          <article>
+            <h3>2D mode</h3>
+            <p>Per library: the zoo stands up on the XY plane facing the camera, with sprite stats (pixels, pixels per unit, atlas, compression, mesh type, sorting).</p>
+          </article>
+          <article>
+            <h3>Live stats</h3>
+            <p>Triangles, vertices, draw calls, materials, LODs, textures, texture memory, size and shader per asset, read from LOD0 and kept current on reimport. Particle systems add max particles, particle mesh tris and flags for noise, collision, lights, sub-emitters and mesh mode.</p>
+          </article>
+          <article>
+            <h3>Per-category budgets</h3>
+            <p>Set limits once; offenders turn red in the scene, get a badge in the list and show up in a CSV report.</p>
+          </article>
+          <article>
+            <h3>Library management</h3>
+            <p>Sort, filter, drag to reorder, batch rename, merge two artists' zoos, export to a standalone scene.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tint">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Screenshots</p>
+          <h2>See it in the Editor</h2>
+        </div>
+        <ul class="shots wide">
+          <li>
+            <figure>
+              <img src="../assets/img/zookeeper-2d-mode.jpg" width="1400" height="976" loading="lazy"
+                   alt="ZooKeeper in 2D mode: assets arranged on a flat grid on the XY plane, each cell labelled with its name and stats.">
+              <figcaption>2D mode arranges assets on the XY plane for a clearer overview of 2D asset libraries.</figcaption>
+            </figure>
+          </li>
+        </ul>
+        <ul class="shots">
+          <li>
+            <figure>
+              <img src="../assets/img/zookeeper-library-list.jpg" width="800" height="1301" loading="lazy"
+                   alt="ZooKeeper window, Library tab, list view: every asset with triangle count, draw calls and height.">
+              <figcaption>Library list with triangles, draw calls and height per asset.</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../assets/img/zookeeper-arrange-grid.jpg" width="800" height="1301" loading="lazy"
+                   alt="ZooKeeper window, Library tab, arrange view: asset thumbnails on a draggable grid next to the scale reference.">
+              <figcaption>Arrange view: drag assets around the category grid.</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../assets/img/zookeeper-categories-budgets.jpg" width="800" height="1301" loading="lazy"
+                   alt="ZooKeeper window, Categories tab: category layout, colours and budget limits for triangles, draw calls and textures.">
+              <figcaption>Categories: layout, colours and per-category budgets.</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../assets/img/zookeeper-settings.jpg" width="800" height="1301" loading="lazy"
+                   alt="ZooKeeper window, Settings tab: prefab output, 3D and 2D scene mode, label options and import and export buttons.">
+              <figcaption>Settings: scene mode, labels, scale reference, import and export.</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Requirements</p>
+          <h2>What you need</h2>
+        </div>
+        <dl class="specs">
+          <dt>Unity</dt>
+          <dd>6.0 (6000.0) or newer. Tested on 6000.0.66f2 and 6000.3.11f1.</dd>
+          <dt>Render pipelines</dt>
+          <dd>Built-in RP, URP and HDRP.</dd>
+          <dt>Dependencies</dt>
+          <dd>TextMesh Pro (<code>com.unity.ugui</code> in Unity 6), used for the zoo labels. If prompted, run Window &gt; TextMeshPro &gt; Import TMP Essential Resources.</dd>
+          <dt>Platform</dt>
+          <dd>Editor tool. Its few runtime components only hold data or reapply a tint; the zoo scene is meant as an editor workspace.</dd>
+          <dt>Version</dt>
+          <dd>1.1.0</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section tint">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Quick start</p>
+          <h2>Up and running in five steps</h2>
+        </div>
+        <ol class="steps">
+          <li><span>Install the package and open <strong>Tools &gt; ZooKeeper &gt; Window</strong>.</span></li>
+          <li><span>Click <strong>Create New Library</strong> and name the first category.</span></li>
+          <li><span>Drag prefabs or models from the Project window into the drop zone, pick a category, and click <strong>Add to zoo</strong>.</span></li>
+          <li><span>Confirm the first build. The platforms appear under a <code>[Zoo]</code> root.</span></li>
+          <li><span>Use <strong>Rebuild</strong> in the toolbar to regenerate the zoo at any time.</span></li>
+        </ol>
+        <p class="muted">A demo scene with ten sample models is included in the package.</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="wrap">
+        <h2>Questions, bugs or feature requests?</h2>
+        <a class="button" href="mailto:andreas.techart.tools@gmail.com">Contact support</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="site-name" href="../index.html"><img src="../assets/img/logo.png" width="40" height="40" alt="">Andreas Nøhr</a>
+        <p>Technical Artist. Unity Editor tools.</p>
+      </div>
+      <div>
+        <h2 class="footer-title">Tools</h2>
+        <ul>
+          <li><a href="zookeeper.html">ZooKeeper</a></li>
+          <li><a href="index.html">All tools</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">Tool support</h2>
+        <p><a href="mailto:andreas.techart.tools@gmail.com">andreas.techart.tools@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="wrap"><p class="copyright">&copy; 2026 Andreas Nøhr. All rights reserved.</p></div>
+  </footer>
+</body>
+</html>
