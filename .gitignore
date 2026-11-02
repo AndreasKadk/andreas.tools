@@ -1,0 +1,14 @@
+# Never publish these (the repo is public)
+zookeeper/
+Logo/
+old_site/
+Andreas*.htm
+*_files/
+SITEMAP.md
+CLAUDE.md
+.claude/
+upload_to_github/
+*.psd
+*.zip
+Thumbs.db
+.DS_Store
