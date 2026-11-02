@@ -175,3 +175,10 @@ ol.steps li::before { content: counter(step); font-size: 2.25rem; font-weight: 7
 }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
+
+/* Waiting list form */
+.waitlist { max-width: 32rem; background: var(--white); border: 1px solid var(--panel); border-top: 6px solid var(--accent); border-radius: var(--radius); padding: clamp(1.5rem, 5vw, 3rem); }
+.waitlist label { display: block; font-weight: 700; margin-bottom: 0.4rem; }
+.waitlist input[type="text"], .waitlist input[type="email"] { width: 100%; font: inherit; padding: 0.75rem 1rem; margin-bottom: 1.25rem; border: 2px solid var(--panel); border-radius: 0.5rem; }
+.waitlist input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.waitlist .button { border: 0; cursor: pointer; font-family: inherit; }
