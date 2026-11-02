@@ -38,12 +38,14 @@
 
     <section class="section tint">
       <div class="wrap">
-        <form class="waitlist" action="https://formspree.io/f/FORM_ID" method="post">
+        <form class="waitlist" action="https://api.web3forms.com/submit" method="post">
           <label for="name">Name (optional)</label>
           <input id="name" name="name" type="text" autocomplete="name">
           <label for="email">Email</label>
           <input id="email" name="email" type="email" autocomplete="email" required>
-          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" hidden>
+          <input type="hidden" name="access_key" value="d87cd891-0dbb-4793-b2ac-7b9d72bc8161">
+          <input type="hidden" name="subject" value="ZooKeeper waiting list signup">
+          <input type="checkbox" name="botcheck" hidden>
           <button class="button" type="submit">Join the waiting list</button>
           <p class="muted">Your email is only used to tell you when ZooKeeper launches. No newsletter, no sharing.</p>
         </form>
